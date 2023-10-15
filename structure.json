@@ -1,0 +1,175 @@
+{
+    "statusCode": 200,
+    "message": "menu building item found",
+    "data": [
+        {
+            "id": 15,
+            "brand_id": 10,
+            "menu_category_id": 31,
+            "menu_food_layout_id": 3,
+            "name": "Chick-fil-A Chick-n-Minis™ Meal (2 Variants)",
+            "description": "Bite-sized Chick-fil-A® Nuggets",
+            "pos_code": "060723003",
+            "price": "150.00",
+            "photo": "1686094932-Chick-fil-A-Chick-n-Minis™.png",
+            "is_available": "Y",
+            "category": {
+                "id": 31,
+                "brand_id": 10,
+                "menu_type": 1,
+                "name": "Breakfast",
+                "description": null,
+                "image": "647f456e24ba0_breakfast.png",
+                "schedule_start": null,
+                "schedule_end": null,
+                "is_show": "Y",
+                "is_all_day": "Y",
+                "is_available": "N",
+                "is_freebies": "N"
+            },
+            "menu_food_layout": {
+                "id": 3,
+                "name": "Meal",
+                "is_available": null
+            },
+			"primary": [
+				"menu_item_variants": [
+					{
+						"id": 33,
+                        "store_item_id": 50,
+                        "name": "Chick-fil-A Chick-n-Minis™ - Bacon",
+                        "description": "Bacon",
+                        "price": "175.00",
+                        "image": "variances/Chick-fil-A Chick-n-Minis™ - Bacon/1686094724.png",
+                        "pos_code": "060723002",
+                        "is_available": null
+					},
+					{
+						"id": 34,
+                        "store_item_id": 50,
+                        "name": "Chick-fil-A Chick-n-Minis™ - Spicy",
+                        "description": "Spicy",
+                        "price": "175.00",
+                        "image": "variances/Chick-fil-A Chick-n-Minis™ - Spicy/1686095299.png",
+                        "pos_code": "060723005",
+                        "is_available": null
+					},
+					{
+						"id": 35,
+                        "store_item_id": 50,
+                        "name": "Chick-fil-A Chick-n-Minis™ - Vegan",
+                        "description": "Vegan",
+                        "price": "175.00",
+                        "image": "variances/Chick-fil-A Chick-n-Minis™ - Vegan/1686095299.png",
+                        "pos_code": "060723010",
+                        "is_available": null
+					}
+				],
+				"menu_item_sizes": [
+					{
+						"id" => 525
+						"mbi_inclusion_id" => 82
+						"price" => "50.00"
+						"size_id" => 34
+						"item_size" => "Small"
+						"status" => "Y"
+						"item_size_id" => 34
+					},
+					{
+						"id" => 526
+						"mbi_inclusion_id" => 82
+						"price" => "50.00"
+						"size_id" => 35
+						"item_size" => "Regular"
+						"status" => "Y"
+						"item_size_id" => 35
+					},
+					{
+						"id" => 527
+						"mbi_inclusion_id" => 82
+						"price" => "50.00"
+						"size_id" => 36
+						"item_size" => "Large"
+						"status" => "Y"
+						"item_size_id" => 36
+					}
+				]
+			],
+			"secondary": [
+
+				"drinks": [
+					"drink_items":[
+						{
+							"id": 47,
+			                "brand_id": 10,
+			                "store_id": null,
+			                "menu_type_id": 2,
+			                "name": "Chick-fil-A® Lemonade",
+			                "description": null,
+			                "price": 25,
+			                "image": "Chick-fil-A® Lemonade/1686065381.png",
+			                "pos_code": "060623010",
+			                "is_available": "Y"
+						},
+						{
+							"id": 48,
+			                "brand_id": 10,
+			                "store_id": null,
+			                "menu_type_id": 2,
+			                "name": "Coca-cola",
+			                "description": null,
+			                "price": 25,
+			                "image": "Coca-cola/1686065440.png",
+			                "pos_code": "060623011",
+			                "is_available": "Y"
+						}, 
+						{
+							"id": 49,
+			                "brand_id": 10,
+			                "store_id": null,
+			                "menu_type_id": 2,
+			                "name": "Freshly-Brewed Iced Tea",
+			                "description": null,
+			                "price": 50,
+			                "image": "Freshly-Brewed Iced Tea/1686065502.png",
+			                "pos_code": "060623012",
+			                "is_available": "Y"
+						}
+					],
+					"drink_sizes": [
+						{
+							"id" => 525
+					        "mbi_inclusion_id" => 82
+					        "price" => "50.00"
+					        "size_id" => 34
+					        "item_size" => "Small"
+					        "status" => "Y"
+					        "item_size_id" => 34
+						},
+						{
+							"id" => 526
+					        "mbi_inclusion_id" => 82
+					        "price" => "50.00"
+					        "size_id" => 35
+					        "item_size" => "Regular"
+					        "status" => "Y"
+					        "item_size_id" => 35
+						},
+						{
+							"id" => 527
+					        "mbi_inclusion_id" => 82
+					        "price" => "50.00"
+					        "size_id" => 36
+					        "item_size" => "Large"
+					        "status" => "Y"
+					        "item_size_id" => 36
+						}
+					]
+				],
+				"sides":[{},{}],
+				"freebies":[{}.{}],
+				"treats":[{},{}],		
+			]
+        }
+    ]
+}
